@@ -46,7 +46,7 @@ impl GuidGen64 {
     pub fn new(node_start_ms: u64, node_id: u16) -> Self {
         println!("node_start_ms : {:?}", node_start_ms);
         let sec = if node_start_ms == 0 {
-            now_millisecond()
+            start_secs() * 1000
         } else {
             node_start_ms
         };
