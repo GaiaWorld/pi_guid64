@@ -7,7 +7,7 @@
 
 #![feature(integer_atomics)]
 
-use pi_time::{now_millisecond, run_millis};
+use pi_time::{now_millisecond, run_millis, start_secs};
 use std::sync::atomic::{AtomicU64, Ordering};
 
 // 全局唯一ID
