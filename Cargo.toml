@@ -1,6 +1,6 @@
 [package]
 name = "pi_guid64"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["luob <luob@gmail.com>"]
 edition = "2021"
 description = "An GUID Generator"

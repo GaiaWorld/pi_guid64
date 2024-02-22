@@ -5,7 +5,7 @@
 //! 分布式系统可以利用控制编号来管理hash，进行一致hash命中
 //!
 
-#![feature(integer_atomics)]
+// #![feature(integer_atomics)]
 
 use pi_time::{now_millisecond, run_millis, start_secs};
 use std::sync::atomic::{AtomicU64, Ordering};
